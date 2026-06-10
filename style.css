@@ -285,3 +285,11 @@ footer {
 .footer-links a:hover {
   color: var(--accent);
 }
+
+/* Responsive footer alignment */
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
